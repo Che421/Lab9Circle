@@ -16,7 +16,7 @@ public class CircleApp {
 
 				Circle circle1 = new Circle(userRadius);
 
-				System.out.println("Circumference: " + circle1.getFormattedCircumference());
+				System.out.println("Circumference: " + circle1.Circumference());
 				System.out.println("Area: " + circle1.getArea());
 			} catch (Exception e) {
 				System.out.println("Error invalid input");
